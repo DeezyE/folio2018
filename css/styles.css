@@ -12,9 +12,10 @@ html {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-} 
+}
 
 body {
+  font-size: 12pt;
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -22,6 +23,10 @@ body {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 .fullName {
@@ -144,7 +149,7 @@ body {
   font-size: 60px;
   position: -webkit-sticky;
   position: sticky;
-  bottom: 5px;
+  bottom: 0px;
 }
 
 .stripeBox {
@@ -241,7 +246,7 @@ body {
 section p {
   /* background-color: #1A1a1a; */
   font-weight: bolder;
-  font-size: 18pt;
+  font-size: 20pt;
   transform: rotate(-90deg);
   color: white;
   text-shadow: 0px 1px 0 red, 0px -1px 0 cyan;
@@ -250,21 +255,24 @@ section p {
 
 article {
   border-style: solid;
+  font-size: .8rem;
   border-width: 0 2px 0 0;
   border-color: rgba(221, 224, 222, 0.7);
   grid-column: span 7;
   color: white;
-  padding: 10px;
-  padding-left: 25px;
+  padding: 20px;
+  padding-left: 30px;
   box-shadow: 1px 0 red;
 }
 
 .articleLeft {
   border-style: solid;
+  border-width: 0 2px 0 0;
   border-width: 0 0 0 2px;
   border-color: rgba(221, 224, 222, 0.7);
-  padding-right: 25px;
+  padding-right: 30px;
   box-shadow: -1px 0 cyan;
+  text-align: right;
 }
 
 .chevron {
@@ -280,5 +288,22 @@ article {
 	vertical-align: top;
 	width: 0.45em;
 }
+
+span.blue {
+  color: #0000FE;
+}
+
+span.green {
+  color: #00FF7F;
+}
+
+span.red {
+  color: #FE0000;
+}
+
+span.yellow {
+  color: #FFFF01;
+}
+
 
 /* background: repeating-linear-gradient(-45deg, transparent, transparent 6px, #0000FE 6px, #0000FE 12px);} */
