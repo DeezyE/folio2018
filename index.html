@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:900" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <title role="title">Isaac Powell - Full Stack</title>
 
@@ -12,12 +13,29 @@
   <body>
 
   <div class="fullName"><p>isaac powell:</p></div>
+  <!-- <div class="test">
+
+  </div> -->
   <div class="colorBoxContainer">
 
-  <div class="blueBox"><p></p></div>
-  <div class="greenBox"><p></p></div>
-  <div class="redBox"><p></p></div>
-  <div class="yellowBox"><p></p></div>
+  <div class="blueBox">
+    <div class="colorBoxesCover colorBoxesCoverMinus60">
+    <p>ABOUT</p>
+    </div>
+  </div>
+  <div class="greenBox">
+    <div class="colorBoxesCover colorBoxesCover60">
+      <p>PAST PROJECTS</p>
+      </div>
+  </div>
+  <div class="redBox">
+    <div class="colorBoxesCover colorBoxesCoverMinus60">
+      <p>INTERESTS</p>
+      </div>
+  </div>
+  <div class="yellowBox"><div class="colorBoxesCover colorBoxesCover60">
+    <p>SKILLSET</p>
+    </div></div>
 
   </div>
 <!-- end of color box -->
@@ -37,7 +55,6 @@
   </div>
   <div class="downArrow"><i class="fas fa-angle-down" style="line-height: .5"></i></div>
 
-  <div class="filler"> <!-- space --></div>
 
 <!-- visual information -->
   <div class="infoBox">
@@ -45,12 +62,21 @@
       <p>PAST PROJECTS</p><div class="sectionChevronRight"></div>
     </section>
     <figure>
+      <div class="cover cover60">
+        <p>Destroying Planets</p>
+      </div>
       <img src="assets/vapors-sun.jpg" alt="">
     </figure>
     <figure>
+      <div class="cover coverminus60">
+        <p>Igniting minds</p>
+      </div>
       <img src="assets/cowboy-bebop.jpg" alt="">
     </figure>
     <figure>
+      <div class="cover cover60">
+        <p>Dancing</p>
+      </div>
       <img src="assets/grungemap2.jpg" alt="">
     </figure>
 
@@ -86,8 +112,13 @@
 
   </div>
 
+  <!-- logo container  -->
+    <div class="logoContainer">
 
-  <div class="filler2"> <!-- space --></div>
+    <div class="logo"> <img src="assets/isaaclogo.png" alt="isaac logo"> </div>
+
+  </div>
+
   <footer>
   <a href="#"class="email">email</a>
   <a href="#" class="medium">medium</a>
