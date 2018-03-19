@@ -137,13 +137,14 @@ h2 {
 
 .blueBox {
   background: #0000FE;
-  background-image: url("../assets/splatter1.png");
-
+  background-image: url("../assets/myself.gif");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .greenBox {
   background: #00FF7F;
-  background-image: url("../assets/greenlegshroud.png");
+  background-image: url("../assets/greenlegshroud2.jpg");
   background-position: center;
   background-repeat: no-repeat;
 
@@ -357,12 +358,11 @@ a.purple:hover {
 .projectTitle {
   text-align: center;
   font-weight: bolder;
-  font-size: 19pt;
+  font-size: 1.5rem;
   padding-left: 20px;
   padding-right: 20px;
   color: white;
   text-shadow: 1px 0px 0 red, -1px 0px 0 cyan;
-
 }
 
 .projectTextL {
